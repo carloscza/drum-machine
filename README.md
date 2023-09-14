@@ -9,7 +9,7 @@
 
 ## Overview
 
-A simple markdown previewer app that previews mardown input in the editor.
+A simple drum machine app.
 [view project here](https://carloscza.github.io/drum-machine/)
 
 ### Motivation
