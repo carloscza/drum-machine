@@ -1,0 +1,19 @@
+.drum-machine-container {
+  background-color: #b3b3b3;
+  max-width: 800px;
+  min-height: 300px;
+  border: 5px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 30px;
+  box-shadow: 1px 1px 20px black, inset 1px 1px 2px black;
+}
+
+@media (max-width: 700px) {
+  .drum-machine-container {
+    max-width: 400px;
+  }
+}

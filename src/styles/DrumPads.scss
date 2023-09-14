@@ -1,0 +1,46 @@
+.drum-pads-container {
+  max-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.drum-pad {
+  background-color: #8d8d8d;
+  width: 100px;
+  height: 90px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px black;
+  cursor: pointer;
+  p {
+    margin: 0;
+  }
+}
+
+.drum-pad-activated {
+  box-shadow: inset 1px 1px 4px black;
+  font-size: 29px;
+}
+
+.clip {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .drum-pad {
+    width: 80px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .drum-pad-activated {
+    font-size: 19px;
+  }
+}
